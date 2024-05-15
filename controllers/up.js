@@ -11,6 +11,6 @@ exports.up = async (req, res, next) => {
       fs.writeFileSync(__dirname + `/cache/` + code + "." + t, Buffer.from(dlw, "utf-8"));
 //set res status
 res.status(200).jsonp({
-    data: "https://Nmanh2006.manh10.repl.co/view" + code + "." + t
+    data: "https://upload-15lt.onrender.com/view" + code + "." + t
 })
 };
